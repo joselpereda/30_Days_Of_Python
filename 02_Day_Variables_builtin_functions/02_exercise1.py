@@ -60,3 +60,16 @@ circOfCircle = 2 * math.pi * Radius
 print("Area of Circle: ", round(areaOfCircle,2), " meters sqr")
 print("Circumfrence of Circle: ", round(circOfCircle,2), " meters")
 
+print("_" * 80)
+#Exercise #6
+firstName2 = input("What is your first name? ")
+lastName2 = input("What is your last name? ")
+Country2 = input("Enter your country of origin: ")
+Age2 = int(input("What is your age? "))
+personalInfo = {'firstname':firstName2,
+                'lastname':lastName2,
+                'country':Country2,
+                'age':Age2}
+
+print(personalInfo)
+
